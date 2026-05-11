@@ -1,0 +1,8 @@
+{
+  "approved_libraries": {
+    "python": ["fastapi", "httpx", "pydantic", "sqlalchemy", "celery"],
+    "typescript": ["nestjs", "axios", "zod"]
+  },
+  "forbidden_libraries": ["requests", "urllib3", "flask", "express"],
+  "secrets_handling": "Never hardcode. Use Vault or AWS Secrets Manager."
+}

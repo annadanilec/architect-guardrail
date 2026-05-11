@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "architect-guardrail"
+version = "0.1.0"
+description = "Lightweight MCP Guardrail for enforcing company tech policy in Claude/Cursor"
+requires-python = ">=3.11"
+dependencies = [
+    "mcp>=0.1.0",
+    "pydantic>=2.8",
+    "pyyaml",
+    "python-dotenv",
+]
+
+[project.scripts]
+guardrail = "src.server:run_server"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]

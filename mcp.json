@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "architect-guardrail": {
+      "command": "uv",
+      "args": ["run", "guardrail"],
+      "env": {}
+    }
+  }
+}
