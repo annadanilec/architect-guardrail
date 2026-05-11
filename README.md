@@ -4,7 +4,7 @@
 
 A lightweight, local **MCP Server** (Model Context Protocol) that connects your company’s technical standards, security policies, and architecture decisions directly to Claude, Cursor, Windsurf, and other MCP-compatible tools.
 
-It acts like a virtual architect sitting on the developer’s shoulder — preventing risky or non-compliant code *before* it is generated.
+It acts like a virtual architect sitting on the developer’s shoulder, preventing risky or non-compliant code *before* it is generated.
 
 ---
 
@@ -142,11 +142,11 @@ architect-guardrail/
 
 ### Roadmap
 
-✅ Core MCP Guardrail; 
-☐ Dynamic Tech Radar integration; 
-☐ Multi-team / multi-policy support; 
-☐ Audit & analytics dashboard; 
-☐ AI-assisted policy suggestions; 
+✅ Core MCP Guardrail; <br>
+☐ Dynamic Tech Radar integration; <br>
+☐ Multi-team / multi-policy support; <br>
+☐ Audit & analytics dashboard; <br>
+☐ AI-assisted policy suggestions; <br>
 
 
 ### Contributing
