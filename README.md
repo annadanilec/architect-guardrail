@@ -142,11 +142,11 @@ architect-guardrail/
 
 ### Roadmap
 
-✅ Core MCP Guardrail
-☐ Dynamic Tech Radar integration
-☐ Multi-team / multi-policy support
-☐ Audit & analytics dashboard
-☐ AI-assisted policy suggestions
+✅ Core MCP Guardrail; 
+☐ Dynamic Tech Radar integration; 
+☐ Multi-team / multi-policy support; 
+☐ Audit & analytics dashboard; 
+☐ AI-assisted policy suggestions; 
 
 
 ### Contributing
