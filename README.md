@@ -2,7 +2,7 @@
 
 **Real-time Tech Policy Enforcement for AI Coding Assistants**
 
-A lightweight, local **MCP Server** (Model Context Protocol) that connects your company’s technical standards, security policies, and architecture decisions directly to Claude, Cursor, Windsurf, and other MCP-compatible tools.
+A lightweight, local **MCP Server** (Model Context Protocol) that connects your company’s technical standards, security policies, and architecture decisions directly to Cursor, and other MCP-compatible tools.
 
 It acts like a virtual architect sitting on the developer’s shoulder, preventing risky or non-compliant code *before* it is generated.
 
@@ -40,7 +40,7 @@ pip install -e .
 uv run guardrail
 ```
 
-The server will start and wait for connection from Claude or Cursor.
+The server will start and wait for connection from Cursor.
 
 ### Configuration – Adding Your Tech Data
 
@@ -84,7 +84,7 @@ Edit policy/policy.json:
 You can freely extend this file with your own rules, preferred patterns, or team-specific standards.
 
 ### How to Connect to AI Tools
-Claude Desktop, Cursor, or Windsurf
+Cursor
 
 Open Settings → MCP Servers
 Add a new server using the included mcp.json file, or manually configure:
